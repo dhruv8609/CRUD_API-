@@ -32,4 +32,6 @@ Endpoint |HTTP Method | CRUD Method | Result
 `api/content/delete/<slug>` | DELETE | DELETE | Delete a lecture
 `api/content/delete/<slug>` | GET | READ | All viewers of a single lecture
 
+Slug is a short label for something, containing only letters, numbers, underscores or hyphens.
+get name of all lectures and replace "-" in place of space to get slug value.
 
