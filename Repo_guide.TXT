@@ -1,0 +1,15 @@
+LOGBOOK FOLDER : 
+	contains a python program for analysing logs and rendering info in a structure.
+
+rest are the Django-rest-framework CRUD Api
+
+Models:
+1. User:
+	two types of user exists - {Mentor and Students}
+	authentication through token
+
+2. VideoModel:
+	model for lectures.
+	-> only mentors create update or delete lectures.
+	-> one lecture have atleast one mentor assigned.
+	-> can get users who viewed a specific lecture. 
